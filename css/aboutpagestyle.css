@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Baloo Tammudu 2', cursive;
+}
+
+.container2 h1{
+    color: #bc1823;
+    text-align: center;
+}
+
+.about-us{
+    padding-left: 5%;
+    margin-top: 1%;
+}
+
+.about-us h1{
+    font-size: 50px;
+    color: #bc1823;
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+
+.about-content{
+    font-size: 20px;
+    padding-top: 1%;
+    padding-left: 3rem;
+}
+
+.danbam-image{
+    display: flex;
+}
+
+.container2{
+    margin-top: 10rem;
+    font-size: 0.5cm;
+}
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sosialmedia-img{
+    position: relative;
+    padding-left: 20rem;
+
+}
+
+.sosialmedia-img img{
+    margin-bottom: 7rem;
+}
+
+#footer{
+    margin-top: 5px;
+    background-color: #333;
+    color: white;
+}
+
+.footer-content{
+    padding: 1rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content .brand {
+    flex: 1;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-content .contact img {
+    width: auto;
+    height: 50px;
+    margin: 0 10px;
+    padding-left: 30px;
+}
+
+.footer-content .contact {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer .copyright {
+    font-weight: lighter;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}

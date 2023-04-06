@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Baloo Tammudu 2', cursive;
+    justify-content: center;
+    align-items: center;
+}
+
+#prev, #next{
+    border:none;
+    background-color: #bc1823;
+    color: white;
+    border-radius: 100%;
+    padding: 0.5% 1.5%;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#prev{
+    margin-left: 5%;
+}
+
+.slider{
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.slider .slides{
+    position: relative;
+}
+
+.slider .slides .slide{
+    float:left;
+}
+
+.container{
+    height: 700vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #fdfae5;
+}
+
+.clear{
+    clear: both;
+
+}
+
+img{
+    border-radius: 1rem;
+}
+
+img:hover{
+    transform: scale(1.15);
+    transition: 500ms;
+}
+.navbar{
+    padding-left: 5%;
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 7%;
+    cursor: pointer;
+}
+
+.logo2{
+    width: 5%;
+}
+
+nav{
+    flex: 1;
+    padding-left: -50px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px; 
+} 
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+.active, nav ul li a:hover{
+    color: #bc1823;
+}
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    background-color: #bc1823;
+    min-width: 160px;       
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 1rem;
+}   
+
+.sub-menu a {
+    color: #fdfae5;  
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.sub-menu a:hover{
+    background-color: #fdfae5;
+    color: #bc1823;
+}
+
+.dropdown:hover .sub-menu{
+    display: block;
+}
+
+.dropdown-content a{
+    border-left: 2px ridge #585858;
+}
+
+/* nav ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: #bc1823;
+    margin-top: 15px;
+    margin-left: -15px;
+} */
+
+.content{
+    text-align: center;
+    justify-content: center;
+    background-color: #fdfae5;
+}
+
+.content h1{
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.content p{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.content .button2{
+    display: inline-block;
+    background: #bc1823;
+    border-radius: 50px;
+    padding: 3px 30px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.food-image{
+    display: flex;
+    justify-content: space-around;
+}
+
+.food-button{
+    display: flex;
+    justify-content: center;
+}
+
+.food{
+    width: 280px;
+    text-align: left;
+}
+
+.food h2{
+    margin-top: -5%;
+    font-size: 22px;
+    display:inline-block;
+}
+
+.food p{
+    margin-top: -5%;
+    font-size: 18px;
+    line-height: 2rem;
+}
+
+#footer{
+    margin-top: 1035px;
+    background-color: #333;
+    color: white;
+}
+
+.footer-content{
+    padding: 1rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content .brand {
+    flex: 1;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-content .contact img {
+    width: auto;
+    height: 50px;
+    margin: 0 10px;
+    padding-left: 30px;
+}
+
+.footer-content .contact {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer .copyright {
+    font-weight: lighter;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}

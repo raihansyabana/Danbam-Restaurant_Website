@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/contactpagestyle.css">
+    <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="../home.html">Home</a></li>
+                    <li class = "dropdown"><a href="../html/menu.html">Menu 🞃</a>
+                        <div class = "sub-menu">
+                            <a href="../html/food.html">Food</a>
+                            <a href="../html/beverages.html">Beverages</a>
+                            <a href="../html/dessert.html">Dessert</a>
+                            <a href="../html/side-dish.html">Side Dish</a>
+                        </div>
+                    </li>
+                    <li><a href="../html/about.html">About</a></li>
+                    <li><a href="../html/location.html">Location</a></li>
+                    <li><a  class = "active" href="../html/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="../images/Logo_var1.png" class="logo2">
+        </div>
+
+        <section class="contact">
+            <div class="contact-content">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contactForm">
+                    <div id="error"></div>
+                    <form id="form" action='/' method="GET">
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" id="namee" name="namee" >
+                            <span>Full Name</span>
+                        </div>
+
+                        <div class="inputBox">
+                            <input type="text" id="email" name="email">
+                            <span>Email</span>
+                        </div>
+
+                        <div class="inputBox">
+                            <label for="gender">Gender</label>
+                        </div>
+
+                        <input type="radio" name="gender" value="Man">
+                        <label for="man">Man</label> <br>
+                        <input type="radio" name="gender" value="Woman">
+                        <label for="man">Woman</label>
+
+                        <div class="inputBox">
+                            <label for="branch">Branch</label>
+                            <br>
+                            <select id="branch" name="branch">
+                                <option value=""></option>
+                                <option value="Seoul">Branch Seoul</option>
+                                <option value="Seoul">Branch Incheon</option>
+                                <option value="Seoul">Branch Busan</option>
+                            </select>
+                        </div>
+
+                        <div class="inputBox">
+                            <textarea ></textarea>
+                            <span>Type your message...</span>
+                        </div>
+
+                        <div class="inputBox">
+                            <input type="submit" id="submit" name="submit" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="brand">
+                    <a href="../html/home.html">
+                        DanBam
+                    </a>
+                </div>
+                <div class="contact1">
+                    <a href="https://www.facebook.com/" target="blank"><img src="../images/fb-white.png" width="25%" alt=""></a>
+                    <a href="https://www.instagram.com/" target="blank"><img src="../images/ig-white.png" width="25%" alt=""></a>
+                    <a href="https://www.youtube.com/" target="blank"><img src="../images/yt-white.png" width="25%" alt=""></a>
+                </div>
+            </div>
+            <div class="copyright">
+                © DanBam 2021. All rights reserved
+            </div>
+        </footer>
+        <script rel="stylesheet" src="../js/script.js"> </script> 
+        
+</body>
+</html>

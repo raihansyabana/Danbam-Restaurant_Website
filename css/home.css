@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Baloo Tammudu 2', cursive;
+}
+
+.container{
+    height: 110vh;
+    width: 100%;
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.clear{
+    clear: both;
+
+}
+
+img{
+    border-radius: 1rem;
+}
+
+img:hover{
+    transform: scale(1.15);
+    transition: 500ms;
+}
+.navbar{
+    padding-left: 5%;
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 7%;
+    cursor: pointer;
+}
+
+
+nav{
+    flex: 1;
+    padding-left: -50px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px; 
+} 
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+.active, nav ul li a:hover{
+    color: #bc1823;
+}
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    background-color: #bc1823;
+    min-width: 160px;       
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 1rem;
+}   
+
+.sub-menu a {
+    color: #fdfae5;  
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.sub-menu a:hover{
+    background-color: #fdfae5;
+    color: #bc1823;
+}
+
+.dropdown:hover .sub-menu{
+    display: block;
+}
+
+.dropdown-content a{
+    border-left: 2px ridge #585858;
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: black;
+}
+
+.content p{
+    font-size: 20px;
+    color: black;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.content a{
+    margin-top: 15px;
+}
+
+.content{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.content .button1{
+    display: inline-block;
+    background: #bc1823;
+    border-radius: 50px;
+    padding: 3px 30px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+
+.content .button2{
+    display: inline-block;
+    background: #fff;
+    border-radius: 50px;
+    padding: 3px 40px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #bc1823;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+
+.feature-img{
+    display: flex;
+    width: auto;
+    height: 80%;
+    position: absolute;
+    bottom: 10%;
+    right: 9%;
+    left: 50%;
+}
+
+.container2{
+    height: 100vh;
+    width: 100%;
+    background-color: #fdfae5;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: -55px;
+}
+
+.content2 h1{
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+}
+
+.content2 p{
+    font-size: 20px;
+    color: black;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content2 a{
+    margin-top: 15px;
+}
+
+.but1{
+    display: flex;
+    justify-content: center;
+}
+
+.content2 .button1{
+    display: inline-block;
+    background: #bc1823;
+    border-radius: 50px;
+    padding: 3px 30px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.about-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 50%;
+}
+
+.container3{
+    margin-top: -5px;
+    height: 100vh;
+    background-color: #fdfae5;
+    box-sizing: border-box;
+}
+
+.content3 h1{
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: black;
+    text-align: center;
+}
+
+
+.content3 p{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.content3 .button1{
+    display: inline-block;
+    background: #bc1823;
+    border-radius: 50px;
+    padding: 3px 30px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.recommend-image{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50%;
+}
+
+.rec-button{
+    display: flex;
+    justify-content: center;
+}
+
+.rec{
+    width: 280px;
+}
+
+.rec p{
+    margin-top: -10px;
+    line-height: 2rem;
+}
+
+.container4{
+    height: 80vh;
+    width: 100%;
+    background-color: #fdfae5;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: -55px;
+}
+
+.content4 h1{
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: black;
+    text-align: center;
+}
+
+.content4 h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.content4 p{
+    font-size: 20px;
+    color: black;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content4 a{
+    margin-top: 15px;
+}
+
+.content4 .button1{
+    display: inline-block;
+    background: #bc1823;
+    border-radius: 50px;
+    padding: 3px 30px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.vis-button{
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+    margin-top: 5px;
+    background-color: #333;
+    color: white;
+}
+
+.footer-content{
+    padding: 1rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content .brand {
+    flex: 1;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-content .contact img {
+    width: auto;
+    height: 50px;
+    margin: 0 10px;
+    padding-left: 30px;
+}
+
+.footer-content .contact {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer .copyright {
+    font-weight: lighter;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}

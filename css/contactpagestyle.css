@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Baloo Tammudu 2', cursive;
+}
+
+.logo2{
+    margin-right: -5%;
+}
+
+.contact-us h1{
+    font-size: 50px;
+    text-align: center;
+    color: #bc1823;
+}
+
+.contact{
+    position: relative;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .contact-content{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .contact-content h2{
+    font-size: 50px;
+    font-weight: 1000;
+    color: #bc1823;
+    margin-top: -20%;
+    margin-bottom: -10%;
+}
+
+.contact-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .contactForm{
+     width: 40%;
+     padding: 40px;
+     background: #fff;
+ }
+
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.contactForm .inputBox input, .contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 20px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    transition: 0.5s;
+    color: #666
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+    color: #e91e63;
+    font-size: 14px;
+    transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #bc1823;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5%;
+    padding-bottom: 1%;
+}
+
+#footer{
+    margin-top: 5px;
+    background-color: #333;
+    width: 110%;
+    color: white;
+}
+
+.footer-content{
+    padding: 1rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content .brand {
+    flex: 1;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-content .contact1 img {
+    width: auto;
+    height: 50px;
+    margin: 0 10px;
+    padding-left: 30px;
+}
+
+.footer-content .contact1 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer .copyright {
+    font-weight: lighter;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
